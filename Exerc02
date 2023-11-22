@@ -1,0 +1,6 @@
+print("Código do usuário %d" % 27)
+print("15 em octal é %o" % 15)
+print("100 em hexadecimal é aproximadamente %x" % 31415926)
+print("pi com três casas decimais é aproximadamente %.3f" % 3.1415926)
+nome = "fulano"
+print("Meu nome é %s" % nome)
