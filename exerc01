@@ -1,0 +1,19 @@
+# X contém um inteiro
+x = 1
+print(type(x))
+
+# Agora y contém uma string
+y = "abc"
+print(type(y))
+
+# Agora um booleano
+
+x = True
+print(type(z))
+
+
+Saída:
+
+<class int>
+<class str>
+<class bool>
