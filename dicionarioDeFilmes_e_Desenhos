@@ -1,0 +1,22 @@
+from collections import defaultdict
+
+genero = defaultdict(lambda: "Ficção")
+
+genero["Tá todo mundo louco"] = "Comedia"
+genero["Avatar"] = "Fantasia"
+genero["Harry Potter"] = "Bruxaria"
+genero["Pirata dos Caribe"] = "Aventura"
+
+print("Alguns dos gêneros cadastrados são: ")
+
+print(f"Tá todo mundo louco: {genero['Tá todo mundo louco']}")
+
+desenho = defaultdict(lambda: "Desenhos Da Cartoon")
+
+desenho["Hora de aventura"] = "Aventura"
+desenho["Apenas um Show"] = "Irmandade"
+desenho["Incrivel Mundo de Gumball"] = "Curtição"
+
+# Imprimindo todos os itens do dicionário desenho
+for chave, valor in desenho.items():
+    print(f"{chave}: {valor}")
